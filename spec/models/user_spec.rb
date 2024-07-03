@@ -3,11 +3,11 @@ require 'rails_helper'
 RSpec.describe User, type: :model do
   subject {
     described_class.new(
-      first_name: "Berk", 
-      last_name: "Ozer", 
-      email: "berk@gmail.com", 
-      password: "secret", 
-      password_confirmation: "secret"
+      first_name: "User", 
+      last_name: "abc",
+      email: "user@gmail.com", 
+      password: "passowrd", 
+      password_confirmation: "password"
     )
   }
 
@@ -56,6 +56,7 @@ RSpec.describe User, type: :model do
     it "is not valid when email isn't unique (case insensitive)" do
       same_as_subject = User.create(
         first_name: "User", 
+        last_name: "abc",
         email: "user@gmail.com", 
         password: "password", 
         password_confirmation: "password"
