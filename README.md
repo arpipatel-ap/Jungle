@@ -2,6 +2,14 @@
 
 A mini e-commerce application built with Rails.
 
+## Final Product
+!["screenshort Jungle-homepage"](https://github.com/arpipatel-ap/Jungle/blob/master/Doc/Home.png)
+!["screenshort Jungle-product-list"](https://github.com/arpipatel-ap/Jungle/blob/master/Doc/Product_list.png)
+!["screenshort Jungle-product-detail"](https://github.com/arpipatel-ap/Jungle/blob/master/Doc/Product_detail.png)
+!["screenshort Jungle-admin-categories"](https://github.com/arpipatel-ap/Jungle/blob/master/Doc/Admin_categories.png)
+!["screenshort Jungle-my-cart"](https://github.com/arpipatel-ap/Jungle/blob/master/Doc/My_cart.png)
+
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
